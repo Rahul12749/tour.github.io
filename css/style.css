@@ -68,6 +68,7 @@ body {
 
 a {
   color: #009ECE;
+  text-decoration: none;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; }
@@ -289,7 +290,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     .destination .meta {
       color: #747474; }
   
-  
+  .breadcrumbs::before{
+    background: linear-gradient(to top, rgb(0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); 
+  }
   
 .site-nav {
   position: relative; }
