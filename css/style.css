@@ -777,7 +777,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .untree_co_slider-wrap .property-contents {
     position: absolute;
     bottom: 20px;
-    right: 20px;
+    left: 80px;
     margin-top: 0px;
     width: 300px;
     padding: 30px;
