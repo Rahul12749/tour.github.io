@@ -17,6 +17,7 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
+  color: blueviolet;
   line-height: 1;
 
   /* Better Font Rendering =========== */
@@ -308,9 +309,11 @@
 }
 .icon-times-circle:before {
   content: "\f057";
+  color: #ffba5a;
 }
 .icon-check-circle:before {
   content: "\f058";
+  color: #ffba5a;
 }
 .icon-question-circle:before {
   content: "\f059";
@@ -485,6 +488,8 @@
 }
 .icon-phone:before {
   content: "\f095";
+  margin-left: 3em;
+  font-size:x-large;
 }
 .icon-square-o:before {
   content: "\f096";
@@ -3470,6 +3475,7 @@
 }
 .icon-star2:before {
   content: "\e838";
+  color: #ffba5a;
 }
 .icon-gradient:before {
   content: "\e3e9";
@@ -3854,6 +3860,8 @@
 }
 .icon-message:before {
   content: "\e0c9";
+  margin: 15px;
+  font-size:x-large;
 }
 .icon-mic:before {
   content: "\e029";
