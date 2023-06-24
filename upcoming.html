@@ -1,8 +1,13 @@
 <!-- /*
-* Template Name: Homespace
-* Template Author: Untree.co
-* Tempalte URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
+var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+var d = new Date();
+d.setDate(1); //REM: To prevent month skipping.
+
+for(var i=0; i<12; i++){
+  d.setMonth(d.getMonth() + 1);
+  console.log(monthNames[d.getMonth()], d.getFullYear())
+};
 */ -->
 <!doctype html>
 <html lang="en">
