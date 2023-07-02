@@ -826,21 +826,23 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .untree_co_slider-wrap .property-contents {
     position: absolute;
     bottom: 20px;
-    left: 80px;
+    left: 50px;
     margin-top: 0px;
     width: 300px;
     padding: 30px;
     z-index: 9; }
     @media (max-width: 991.98px) {
+      .logo img{
+        width: 70px;
+
+      }
       .untree_co_slider-wrap .property-contents {
         position: absolute;
         background: none;
         color: #ffffff;
         bottom: 20px;
-        right: 20px;
         padding: 0;
-        width: auto;
-        padding-left: 10px; } }
+        width: auto; } }
     .untree_co_slider-wrap .property-contents .current-price {
       display: block;
       font-size: 30px;

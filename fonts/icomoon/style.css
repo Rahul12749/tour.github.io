@@ -1795,6 +1795,8 @@
 }
 .icon-whatsapp:before {
   content: "\f232";
+  margin: 15px;
+  font-size:x-large;
 }
 .icon-server:before {
   content: "\f233";
