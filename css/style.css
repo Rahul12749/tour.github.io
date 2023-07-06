@@ -86,44 +86,38 @@ a {
   top: 0; /* required */
   z-index: 1;
 }
+
 div.sticky {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   z-index: 1;
-  background: #63768A;
+  background: #ffba00;
 }
 
 .trip-pricing{
   position: relative;
-    float: left;
-    background: #7f7f7f;
-    color: #fff;
-    width: 41.66666667%;
-    min-height: 1px;
-    padding: 5px 0;
-    text-align: center;
-    line-height: 27px;
-    font-size: 22px;
-    font-weight: 400;
+  float: left;
+  background: #7f7f7f;
+  color: #fff;
+  width: 41.66666667%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
 }
 
-.trip-pricing .advt-pricing-suffix-content-mobile{
-  font-size: 15px;
-}
 .btn-container{
   position: relative;
   float: left;
   width: 58.33333333%;
-  min-height: 1px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .btn-container a{
   color: #fff;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 li {
@@ -178,7 +172,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   overflow: auto;
   margin: 10px 0px;
   }
-
+  .dropdown-toggle {
+    white-space: initial;
+}
   .dropdown-toggle::after {
     display: block;
     margin-left: 0.255em;
