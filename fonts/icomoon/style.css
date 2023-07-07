@@ -45,6 +45,8 @@
 }
 .icon-search:before {
   content: "\f002";
+  margin: 15px;
+  font-size:x-large;
 }
 .icon-envelope-o:before {
   content: "\f003";
@@ -2751,6 +2753,8 @@
 }
 .icon-phone2:before {
   content: "\e0cd";
+  margin: 15px;
+  font-size:x-large;
 }
 .icon-call_end:before {
   content: "\e0b1";
@@ -4359,6 +4363,8 @@
 }
 .icon-search2:before {
   content: "\e8b6";
+  margin: 15px;
+  font-size:x-large;
 }
 .icon-security:before {
   content: "\e32a";
