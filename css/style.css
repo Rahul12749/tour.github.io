@@ -23,6 +23,10 @@ body {
     opacity: 1;
     visibility: visible; }
 
+    #Gallery img{
+      width: -webkit-fill-available;
+    }
+
     .banner{
       width: 100%;
       height: 80vh;
@@ -41,6 +45,10 @@ body {
 
 .text-secondary {
   color: #009ECE !important; }
+.text-yellow {
+  color: #ffd904 !important; 
+  font-size: 20px;
+}
 
 .bg-primary-light {
   background-color: rgba(0, 158, 206, 0.05); }
@@ -49,14 +57,11 @@ body {
   background-color: rgba(0, 158, 206, 0.05); }
 
 a {
-  color: #009ECE;
+  color: #252525;
   text-decoration: none;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; }
-  a:hover {
-    color: #009ECE;
-    text-decoration: none; }
 
 .incexc{
   border: 0;
@@ -72,6 +77,12 @@ a {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
+}
+.incexce{
+  border: 0;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+  border-radius: 20px !important;
 }
 
 .nave {
@@ -175,6 +186,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     margin-left: 0.255em;
     float: right;
     margin-top: 15px;
+    color: #ffba00;
     content: "";
     border-top: 0.3em solid;
     border-right: 0.3em solid transparent;
@@ -977,7 +989,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   margin-bottom: 30px; }
   .property-entry .price {
     display: block;
-    color: #009ECE;
+    color: #252525;
     margin-bottom: 15px; }
   .property-entry .specs {
     padding: 0;
@@ -1009,11 +1021,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     position: relative; }
     .property-entry .more > a {
       position: relative;
-      display: inline-block;
-      width: 45px;
-      height: 40px;
-      background: #009ECE;
-      border-radius: 4px; }
+      background: #ffba00;
+      color: #fff;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 30px;
+      font-size: 14px; }
       .property-entry .more > a span {
         color: #ffffff;
         font-size: 20px;
@@ -1101,7 +1116,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #dff400;
+  background: #ffba00;
   color: #ffffff;
   position: relative; }
   .properties-nav-direction > a > span {
@@ -1496,7 +1511,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background: yellow;
+        background: #ffba00;
         display: inline-block;
         position: relative;
         color: #ffffff;
