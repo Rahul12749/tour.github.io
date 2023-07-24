@@ -311,11 +311,11 @@
 }
 .icon-times-circle:before {
   content: "\f057";
-  color: #ffba5a;
+  color: #ffba00;
 }
 .icon-check-circle:before {
   content: "\f058";
-  color: #ffba5a;
+  color: #ffba00;
 }
 .icon-question-circle:before {
   content: "\f059";
@@ -3481,7 +3481,7 @@
 }
 .icon-star2:before {
   content: "\e838";
-  color: #ffba5a;
+  color: #ffba00;
 }
 .icon-gradient:before {
   content: "\e3e9";
