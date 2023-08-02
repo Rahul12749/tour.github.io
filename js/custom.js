@@ -259,7 +259,6 @@ $(function(){
 	var slickPlugin = function() {
 		$('.untree_co_slider').slick({
       centerMode: true,
-		  centerPadding: '200px',
 		  infinite: true,
 		  autoplay: true,
 		  slidesToShow: 1,

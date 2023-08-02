@@ -116,6 +116,7 @@
 }
 .icon-clock-o:before {
   content: "\f017";
+  color: #1d7fa0;
 }
 .icon-road:before {
   content: "\f018";
@@ -311,11 +312,11 @@
 }
 .icon-times-circle:before {
   content: "\f057";
-  color: #ffba00;
+  color: red;
 }
 .icon-check-circle:before {
   content: "\f058";
-  color: #ffba00;
+  color: green;
 }
 .icon-question-circle:before {
   content: "\f059";
@@ -388,6 +389,7 @@
 }
 .icon-calendar:before {
   content: "\f073";
+  color: #1d7fa0;
 }
 .icon-random:before {
   content: "\f074";
@@ -2449,6 +2451,7 @@
   content: "\e3ba";
 }
 .icon-add_location:before {
+  color: #1d7fa0;
   content: "\e567";
 }
 .icon-add_shopping_cart:before {
@@ -3481,7 +3484,7 @@
 }
 .icon-star2:before {
   content: "\e838";
-  color: #ffba00;
+  color: #ffda04;
 }
 .icon-gradient:before {
   content: "\e3e9";

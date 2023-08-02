@@ -26,6 +26,16 @@ body {
     #Gallery img{
       width: -webkit-fill-available;
     }
+    
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+
+}
 
     .banner{
       width: 100%;
@@ -46,7 +56,7 @@ body {
 .text-secondary {
   color: #009ECE !important; }
 .text-yellow {
-  color: #ffd904 !important; 
+  color: #252525 !important; 
   font-size: 20px;
   font-weight: bold;
 }
@@ -101,7 +111,15 @@ div.sticky {
   z-index: 1;
   background: #ffba00;
 }
-
+.breadcrumbs {
+ margin-top: -10%;
+ z-index: -1;
+  min-height: 70vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .trip-pricing{
   position: relative;
   float: left;
@@ -135,6 +153,9 @@ li {
     white-space: nowrap !important;
     overflow-x: scroll;
 }
+.breadcrumbs {
+  margin-top: -35%;
+ }
 }
   p{
     line-height: 2;
@@ -820,10 +841,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%); }
 
-.untree_co_slider-wrap {
-  position: relative;
-  background: #f8f9fa url("../images/subtle_zebra_3d.png") repeat top left;
-  }
+
   .untree_co_slider-wrap .nav-direction {
     position: absolute;
     z-index: 2;
@@ -876,8 +894,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     z-index: 9; }
     @media (max-width: 991.98px) {
       .logo img{
-        width: 70px;
-
+        width: 60px;
       }
       .untree_co_slider-wrap .property-contents {
         position: absolute;
@@ -962,6 +979,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .untree_co-section .heading-3 {
     font-size: 20px;
     font-weight: bold;
+    width: fit-content;
+    padding: 5px 15px;
+    margin: auto;
     color: #252525;
   border: 3px solid #ffba00; }
     @media (max-width: 991.98px) {
@@ -1023,9 +1043,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     font-size: 15px; }
     .property-entry .location h3 a {
       color: #000000; }
-  .property-entry .more {
+  .more {
     position: relative; }
-    .property-entry .more > a {
+    .more > a {
       position: relative;
       background: #ffba00;
       color: #fff;
@@ -1035,7 +1055,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       padding-right: 30px;
       border-radius: 30px;
       font-size: 14px; }
-      .property-entry .more > a span {
+      .more > a span {
         color: #ffffff;
         font-size: 20px;
         display: inline-block;
@@ -1550,6 +1570,21 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       content: "\f095"; }
     .site-footer ul.quick-info li.address:before {
       content: "\e8b4"; }
-      .discbullet li {
-        list-style-type: disc;
+      .discbullet li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: green; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+      }
+      .format_list_date li{
+        background-color: #c7edfa;
+        margin: 2px;
+        padding: 0px;
+      }
+      .format_list_rate li{
+        background-color: #fff9c7;
+        margin: 2px;
+        padding: 0px;
       }
