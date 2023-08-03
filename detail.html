@@ -181,63 +181,29 @@
                   </p>
                 </h6>
 
-          <p class="heading-3 mb-3 text-center text-black text-uppercase" id="Itinerary">Itinerary</p>
-    
-          
-          <div class="dropdown text-left">
-            <span class="text-yellow">Day : 1</span>
-            <button class="btnn dropdown-toggle incexce" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span style="font-weight:600; width: 50%; color: #252525;">Chandigarh – Narkanda / Rampur</span>
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              We start the roadtrip at 11 AM by driving out of city limits, leaving the hustle-bustle behind, in quest for calmer mountains. The twisting and turning path leads us to Narkanda / Rampur where we spend the night.
-            </div>
-          </div>
-          
-          <div class="dropdown text-left">
-            <span class="text-yellow">Day : 2</span>
-            <button class="btnn dropdown-toggle incexce" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             <span style="font-weight:600; color: #252525;">Narkanda / Rampur - Sangla – Chitkul - Sangla </span>
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              We wake up early today and start at 6 am for the traverse through Sangla valley. Known predominantly for its agriculture, almost every house in Sangla will have cultivations of apples, pears, walnuts, apricots or potatoes.</p>
-  
-              <p>We will be going for a short drive from Sangla to Chitkul which will be one of the most scenic drives you’ll take with plenty of opportunities to take stunning photographs. Walk around the Bapsa river and pay tribute to the Mathi Goddess at the temple in the village. We will spend the night at Sangla Camps.</p>
-            </div>
-          </div>
-         
-          <div class="dropdown text-left">
-            <span class="text-yellow">Day : 3</span>
-            <button class="btnn dropdown-toggle incexce" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             <span style="font-weight:600; color: #252525;">Sangla - Kalpa </span>
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              We start the roadtrip at 11 AM by driving out of city limits, leaving the hustle-bustle behind, in quest for calmer mountains. The twisting and turning path leads us to Narkanda / Rampur where we spend the night.
-            </div>
-          </div>
-          <div class="dropdown text-left">
-            <span class="text-yellow">Day : 4</span>
-            <button class="btnn dropdown-toggle incexce" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             <span style="font-weight:600; color: #252525;">Kalpa - Nako – Tabo </span>
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              We start the roadtrip at 11 AM by driving out of city limits, leaving the hustle-bustle behind, in quest for calmer mountains. The twisting and turning path leads us to Narkanda / Rampur where we spend the night.
-            </div>
-          </div>
-          
-          <div class="dropdown text-left">
-            <span class="text-yellow">Day : 5</span>
-            <button class="btnn dropdown-toggle incexce" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             <span style="font-weight:600; color: #252525;">Tabo – Dhankar - Pin Valley - Kaza </span>
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              On the fifth day, we drive towards the beautiful Pin Valley, which is home to the rare snow leopard and its prey, the ibex. It derives its name from the Pin river.</p>
-  
-              <p>We will be proceeding to Dhankar which is renowned for its 1200-year old monastery balanced precariously on a rocky precipice. If time and energy permit, we do the easy 45-minute trek to the stunning turquoise coloured Dhankar Lake.</p>
-              
-              <p>We will visit the Kungri Monastery and then the beautiful hamlet of Mudh – the last motorable village of the Pin Valley. By evening, drive to Kaza, the commercial capital of the Spiti valley and spend the night in a hotel.</p>
-                          </div>
-          </div>
+              <p class="heading-3 mb-3 text-center text-black text-uppercase" id="Itinerary">Itinerary</p>
+    <div class="my-3 text-left">
+      <p class="text-yellow">Day : 1</p>
+      
+      <button class="accordion">Chandigarh – Narkanda / Rampur</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+    <div class="my-3 text-left">
+      <p class="text-yellow">Day : 2</p>
+      <button class="accordion">Narkanda / Rampur - Sangla – Chitkul - Sangla</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+    <div class="my-3 text-left">
+              <p class="text-yellow">Day : 3</p>
+
+              <button class="accordion">Sangla - Kalpa</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div></div>
           </div>
         </div>
      
@@ -403,6 +369,23 @@
 <script src="js/jarallax.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/custom.js"></script>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
+  
 <!-- Global site tag (gtag.js) - Google Analytics -->
 </body>
 

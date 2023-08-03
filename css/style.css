@@ -59,6 +59,7 @@ body {
   color: #252525 !important; 
   font-size: 20px;
   font-weight: bold;
+  text-align: left;
 }
 
 .bg-primary-light {
@@ -109,7 +110,7 @@ div.sticky {
   left: 0;
   width: 100%;
   z-index: 1;
-  background: #ffba00;
+  background: #ffda04;
 }
 .breadcrumbs {
  margin-top: -10%;
@@ -169,7 +170,7 @@ li {
   }
 
   li::marker{
-    color: #ffba00;
+    color: #ffda04;
   }
 
 ::-moz-selection {
@@ -208,7 +209,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     margin-left: 0.255em;
     float: right;
     margin-top: 15px;
-    color: #ffba00;
+    color: #ffda04;
     content: "";
     border-top: 0.3em solid;
     border-right: 0.3em solid transparent;
@@ -983,7 +984,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     padding: 5px 15px;
     margin: auto;
     color: #252525;
-  border: 3px solid #ffba00; }
+  border: 3px solid #ffda04; }
     @media (max-width: 991.98px) {
       .untree_co-section .heading-2 {
         font-size: 30px; } }
@@ -1047,7 +1048,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     position: relative; }
     .more > a {
       position: relative;
-      background: #ffba00;
+      background: #ffda04;
       color: #fff;
       padding-top: 12px;
       padding-bottom: 12px;
@@ -1150,7 +1151,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-size: 30px;
-  color: #ffba00; }
+  color: #ffda04; }
   .properties-nav-direction > a.next {
     position: relative;
     -webkit-transform: rotate(-180deg);
@@ -1535,7 +1536,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background: #ffba00;
+        background: #ffda04;
         display: inline-block;
         position: relative;
         color: #ffffff;
@@ -1588,3 +1589,35 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         margin: 2px;
         padding: 0px;
       }
+
+      
+.accordion {
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border: 0;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+  border-radius: 10px !important;
+}
+.accordion:after {
+  content: '\2304';
+  font-size: 24px;
+  font-weight: bolder;
+  color: #ffda04;
+  float: right;
+  margin-left: 5px;
+}
+
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
