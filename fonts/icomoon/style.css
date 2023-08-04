@@ -116,7 +116,7 @@
 }
 .icon-clock-o:before {
   content: "\f017";
-  color: #010d3f;
+  color: #010d3fc2;
 }
 .icon-road:before {
   content: "\f018";
@@ -389,7 +389,7 @@
 }
 .icon-calendar:before {
   content: "\f073";
-  color: #010d3f;
+  color: #010d3f9e;
 }
 .icon-random:before {
   content: "\f074";
@@ -2454,7 +2454,7 @@
   content: "\e3ba";
 }
 .icon-add_location:before {
-  color: #010d3f;
+  color: #010d3fc9;
   content: "\e567";
 }
 .icon-add_shopping_cart:before {
