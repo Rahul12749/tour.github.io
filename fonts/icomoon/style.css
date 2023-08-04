@@ -116,7 +116,7 @@
 }
 .icon-clock-o:before {
   content: "\f017";
-  color: #1d7fa0;
+  color: #010d3f;
 }
 .icon-road:before {
   content: "\f018";
@@ -389,7 +389,7 @@
 }
 .icon-calendar:before {
   content: "\f073";
-  color: #1d7fa0;
+  color: #010d3f;
 }
 .icon-random:before {
   content: "\f074";
@@ -405,6 +405,9 @@
 }
 .icon-chevron-down:before {
   content: "\f078";
+  font-weight: bolder;
+  color: #ffda04;
+  float: right;
 }
 .icon-retweet:before {
   content: "\f079";
@@ -2451,7 +2454,7 @@
   content: "\e3ba";
 }
 .icon-add_location:before {
-  color: #1d7fa0;
+  color: #010d3f;
   content: "\e567";
 }
 .icon-add_shopping_cart:before {
